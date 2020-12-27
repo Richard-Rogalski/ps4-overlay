@@ -184,8 +184,8 @@ index 60acfda75ce..23a0e6bd7b7 100644
        /* Bug with tessellation and GS on Bonaire and older 2 SE chips. */
        if ((sscreen->info.family == CHIP_TAHITI || sscreen->info.family == CHIP_PITCAIRN ||
 -           sscreen->info.family == CHIP_BONAIRE) &&
-+           sscreen->info.family == CHIP_BONAIRE) ||
-+	   sscreen->info.family == CHIP_LIVERPOOL) /* ? */ &&
++           sscreen->info.family == CHIP_BONAIRE ||
++	    sscreen->info.family == CHIP_LIVERPOOL) /* ? */ &&
            key->u.uses_gs)
           partial_vs_wave = true;
  
