@@ -483,10 +483,10 @@ multilib_src_configure() {
 
 	if use gallium; then
 		gallium_enable -- swrast
-		emesonargs+=( -Dosmesa=$(usex osmesa gallium none) )
+		emesonargs+=( -Dosmesa=true )
 	else
 		dri_driver_enable -- swrast
-		emesonargs+=( -Dosmesa=$(usex osmesa classic none) )
+		emesonargs+=( -Dosmesa=true )
 	fi
 
 	driver_list() {
