@@ -1,29 +1,3 @@
-From a81bf12e0a5dc0833a146695d92d802f4030bdc5 Mon Sep 17 00:00:00 2001
-From: paranoidbashthot <paranoidnela@gmail.com>
-Date: Sun, 27 Dec 2020 14:27:34 +0100
-Subject: [PATCH] 	modified:   include/pci_ids/radeonsi_pci_ids.h 
- modified:   src/amd/addrlib/src/amdgpu_asic_addr.h 	modified:  
- src/amd/common/ac_gpu_info.c 	modified:   src/amd/common/amd_family.h 
- modified:   src/amd/llvm/ac_llvm_util.c 	modified:  
- src/amd/vulkan/radv_pipeline.c 	modified:  
- src/amd/vulkan/winsys/null/radv_null_winsys.c 	modified:  
- src/gallium/drivers/radeonsi/si_state_draw.cpp 	modified:  
- src/gallium/targets/d3dadapter9/description.c 	modified:  
- src/gallium/winsys/radeon/drm/radeon_drm_winsys.c
-
----
- include/pci_ids/radeonsi_pci_ids.h               |  5 +++++
- src/amd/addrlib/src/amdgpu_asic_addr.h           |  6 +++++-
- src/amd/common/ac_gpu_info.c                     | 16 +++++++++++++++-
- src/amd/common/amd_family.h                      |  2 ++
- src/amd/llvm/ac_llvm_util.c                      |  2 ++
- src/amd/vulkan/radv_pipeline.c                   |  3 ++-
- src/amd/vulkan/winsys/null/radv_null_winsys.c    |  4 ++++
- src/gallium/drivers/radeonsi/si_state_draw.cpp   |  3 ++-
- src/gallium/targets/d3dadapter9/description.c    |  2 ++
- .../winsys/radeon/drm/radeon_drm_winsys.c        |  6 ++++++
- 10 files changed, 45 insertions(+), 4 deletions(-)
-
 diff --git a/include/pci_ids/radeonsi_pci_ids.h b/include/pci_ids/radeonsi_pci_ids.h
 index 8c4567e8483..9f0d596f4ee 100644
 --- a/include/pci_ids/radeonsi_pci_ids.h
