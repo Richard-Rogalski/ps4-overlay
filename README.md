@@ -1,13 +1,13 @@
-## ps4-overlay
+# ps4-overlay
 Finally, a Gentoo PS4 overlay that is up-to-date and has all the packages a PS4 Linux repository should. (At least, that's the plan. Still a WIP)
 
-# DONE:
+## DONE:
 xf86-video-amdgpu-21.0.0 & 9999
 xf86-video-ati-19.1.0 & 9999
 libdrm-2.4.107 & 9999
 mesa-21.2.2 && 9999
 
-# TODO:
+## TODO:
 ps4-linux-5.3.7 (the PS4Gentoo kernel)
 ps4-linux-4.14 & 4.19 (PSXITA kernels)
 ps4fancontrol
@@ -17,7 +17,7 @@ gamemode
 spine
 probably many more
 
-# Thanks to and made possible by:
+## Thanks to and made possible by:
 fail0verflow
 mircoho (PS4Gentoo)
 the PSXITA team
