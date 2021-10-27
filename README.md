@@ -23,7 +23,7 @@ mircoho (PS4Gentoo)
 the PSXITA team  
 eeply  
 paranoidbashthot  
-everyone in the SCE Party or OpenOrbis discord
+everyone in the SCE Party or OpenOrbis discord  
 the Gentoo developers  
 everyone that spent time finding and writing exploits for the PS4  
 and probably many others, sorry if I missed you  
