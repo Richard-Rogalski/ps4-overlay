@@ -10,7 +10,7 @@ ps4fancontrol 1.0.0 & 9999
 
 ## TODO:
 ps4-linux-5.3.7 (the PS4Gentoo kernel)  
-ps4-linux-4.14 & 4.19 (PSXITA + Kquote's kernels)
+ps4-linux-4.14 & 4.19 (PSXITA + Kquote's kernels)  
 ps4-ucode (I think source url was broken?)  
 ps4-linux-firmware  
 gamemode  
