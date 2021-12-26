@@ -14,7 +14,7 @@ ps4-linux-4.14 & 4.19 (PSXITA + Kquote's kernels)
 ps4-ucode (I think source url was broken?)  
 ps4-linux-firmware  
 gamemode  
-spine 
+spine  
 add legacy binutils  
 probably many more  
 
@@ -24,7 +24,7 @@ mircoho (PS4Gentoo)
 the PSXITA team  
 eeply  
 paranoidbashthot  
-everyone in the SCE Party or OpenOrbis discord  
+everyone in SCE Party or OpenOrbis   
 the Gentoo developers  
 everyone that spent time finding and writing exploits for the PS4  
 and probably many others, sorry if I missed you  
